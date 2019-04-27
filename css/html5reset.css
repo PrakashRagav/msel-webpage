@@ -1,0 +1,123 @@
+p {
+    font-family: "calibri";
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+    text-align: justify;
+}
+
+pre
+{
+  font-family: "Raleway";
+  /*font-size: 16px;
+  lheight: 2.5em;ine-*/
+}
+i
+{
+  color: #0e3ca5;
+}
+table
+{
+    border: 1px solid #dddddd;
+
+  border-collapse: collapse;
+}
+
+th{
+  letter-spacing: 0px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "calibri";
+  /* color: wheat; */
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 2em;
+  text-transform: uppercase;
+  border: 1px solid #dddddd;
+  /*text-align: left;*/
+  padding: 8px;
+}
+
+td{
+  letter-spacing: 0px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "calibri";
+  color: #000;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 1.5em;
+  text-transform: none;
+  border: 1px solid #dddddd;
+  text-align: justify;
+  padding: 5px;
+  /* white-space: pre-wrap; */
+}
+
+tr
+{
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "calibri";
+  /* color: wheat; */
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 2em;
+  border: 1px solid #dddddd;
+  /*text-align: left;*/
+  padding: 8px;
+}
+
+a {
+  color: #0e3ca5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+h1{
+  letter-spacing: 0px;
+  font-weight: 800;
+  font-style: normal;
+  font-family: "Raleway";
+  /* color: wheat; */
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 6px;
+  line-height: 1em;
+}
+
+h2{
+  letter-spacing: 0px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Raleway";
+  text-transform:uppercase;
+  font-size:16px;
+}
+
+h3{
+  letter-spacing: 0px;
+  font-weight: 800;
+  font-style: normal;
+  font-family: "Raleway";
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  line-height: 2em;
+}
+
+*::selection {
+    background-color: #000;
+    color: #fff;
+}
+
+a::visited {
+    color: #3d9991;
+    text-decoration: none;
